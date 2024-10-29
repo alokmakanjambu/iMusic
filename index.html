@@ -1,0 +1,423 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMusic</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css">
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto d-flex align-items-center" href="#">
+          <img src="img/logo9.png" alt="iMusic" class="nav-logo">
+          <span class="brand-text">iMusic</span>
+      </a>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">iMusic</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ex-lg-2" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ex-lg-2" href="#features">Features</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link ex-lg-2" href="#pricing">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="login/login.html" class="login-button">Login</a>
+        <button
+        class="navbar-toggler "
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+       >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--section 1-->
+    <section class="hero-section">
+        <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+          <h1>Enjoy your</h1>
+          <h2>iMusic</h2>
+          <a href="#about" class="login-button mt-4">Get Started</a>
+        </div>
+    </section>
+    <!--section 1 end-->
+
+    <!--about-->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-content">
+              <h1 class="about-title">About iMusic</h1>
+              <h2>Who We Are</h2>
+              <p>iMusic is a revolutionary music streaming platform dedicated to bringing the best music experience to our users. Founded in 2024, we've been committed to making music accessible to everyone, everywhere.</p>
+              <h2>Our Mission</h2>
+              <p>To create the most comprehensive and user-friendly music streaming platform that connects artists with listeners worldwide.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6">
+            <div class="logo-tagline">
+              <img src="img/logo9.png" alt="iMusic Logo" class="img-fluid">
+              <p class="lead">Your Ultimate Music Streaming Platform</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--about end-->
+
+    <!--features-->
+<section id="features" class="features-section py-5">
+  <div class="container">
+      <h1 class="text-center mb-5">Our Features</h1>
+      <div class="row g-4">
+          <!-- Feature Card 1 -->
+          <div class="col-md-4">
+              <div class="feature-card">
+                  <div class="feature-icon">
+                      <i class="ph ph-playlist"></i>
+                  </div>
+                  <h3>Custom Playlists</h3>
+                  <p>Create and customize your personal playlists with your favorite tracks.</p>
+              </div>
+          </div>
+          <!-- Feature Card 2 -->
+          <div class="col-md-4">
+              <div class="feature-card">
+                  <div class="feature-icon">
+                      <i class="ph ph-music-notes"></i>
+                  </div>
+                  <h3>High Quality Audio</h3>
+                  <p>Experience crystal clear sound with our high-definition audio streaming.</p>
+              </div>
+          </div>
+          <!-- Feature Card 3 -->
+          <div class="col-md-4">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="ph ph-shuffle"></i>
+                </div>
+                <h3>Smart Recommendations</h3>
+                <p>Discover new music tailored to your taste with our advanced recommendation system.</p>
+            </div>
+        </div>
+          <!-- Feature Card 4 -->
+          <div class="col-md-4">
+              <div class="feature-card">
+                  <div class="feature-icon">
+                      <i class="ph ph-radio"></i>
+                  </div>
+                  <h3>Radio Stations</h3>
+                  <p>Access thousands of radio stations from around the world.</p>
+              </div>
+          </div>
+          <!-- Feature Card 5 -->
+          <div class="col-md-4">
+              <div class="feature-card">
+                  <div class="feature-icon">
+                      <i class="ph ph-devices"></i>
+                  </div>
+                  <h3>Multi-Device Sync</h3>
+                  <p>Seamlessly sync your music across all your devices.</p>
+              </div>
+          </div>
+          <!-- Feature Card 6 -->
+          <div class="col-md-4">
+              <div class="feature-card">
+                  <div class="feature-icon">
+                      <i class="ph ph-wave-sine"></i>
+                  </div>
+                  <h3>Sound Equalizer</h3>
+                  <p>Customize your listening experience with advanced audio settings.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+    <!--features end-->
+    
+    <!-- demo song-->
+<div class="col-md-6 mx-auto mt-5">
+  <div class="feature-card demo-song-card">
+      <div class="feature-icon">
+          <i class="ph ph-music-notes"></i>
+      </div>
+      <h3>Try Our Player</h3>
+      <p>Experience our high-quality streaming with this demo track.</p>
+      <div class="audio-player">
+          <audio id="demoAudio" controls>
+              <source src="music/Different Heaven - Safe And Sound _ House _ NCS .mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio>
+      </div>
+  </div>
+</div>
+    <!--demo song end-->
+
+  <!--pricing-->
+<section id="pricing" class="pricing-section py-5">
+  <div class="container">
+    <h1 class="text-center mb-5">Choose Your Plan</h1>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Ad-supported listening</li>
+              <li>Basic audio quality</li>
+              <li>Limited skips</li>
+              <li>Access to radio stations</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Standard</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$2<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Ad-free listening</li>
+              <li>High-quality audio</li>
+              <li>Unlimited skips</li>
+              <li>Offline mode</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$5<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>All Standard features</li>
+              <li>Ultra-high-quality audio</li>
+              <li>Exclusive content</li>
+              <li>Multi-device sync</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-center mt-5 mb-4">Compare Plans</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th style="width: 34%;"></th>
+            <th style="width: 22%;">Free</th>
+            <th style="width: 22%;">Standard</th>
+            <th style="width: 22%;">Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Ad-free listening</th>
+            <td><i class="ph ph-x text-danger"></i></td>
+            <td><i class="ph ph-check text-success"></i></td>
+            <td><i class="ph ph-check text-success"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Audio quality</th>
+            <td>Basic</td>
+            <td>High</td>
+            <td>Ultra-high</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Offline mode</th>
+            <td><i class="ph ph-x text-danger"></i></td>
+            <td><i class="ph ph-check text-success"></i></td>
+            <td><i class="ph ph-check text-success"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Exclusive content</th>
+            <td><i class="ph ph-x text-danger"></i></td>
+            <td><i class="ph ph-x text-danger"></i></td>
+            <td><i class="ph ph-check text-success"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Multi-device sync</th>
+            <td><i class="ph ph-x text-danger"></i></td>
+            <td><i class="ph ph-x text-danger"></i></td>
+            <td><i class="ph ph-check text-success"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!--pricing end-->
+
+<!--registrasi-->
+<section id="pricing" class="pricing-section py-5"> 
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Register for iMusic</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="registration-card">
+          <form id="registrationForm" class="registration-form">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" required>
+                <div class="invalid-feedback">Please enter your full name.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" required>
+                <div class="invalid-feedback">Password must be at least 8 characters long.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" required>
+                <div class="invalid-feedback">Passwords do not match.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="plan" class="form-label">Select Plan</label>
+                <select class="form-select" id="plan" required>
+                  <option value="">Choose your plan</option>
+                  <option value="free">Free Plan</option>
+                  <option value="standard">Standard Plan ($2/mo)</option>
+                  <option value="premium">Premium Plan ($5/mo)</option>
+                </select>
+                <div class="invalid-feedback">Please select a plan.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" required>
+                <div class="invalid-feedback">Please enter a valid phone number.</div>
+              </div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="terms" required>
+              <label class="form-check-label" for="terms">I agree to the Terms and Conditions</label>
+              <div class="invalid-feedback">You must agree to the terms and conditions.</div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Register Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--registration end-->
+
+<!--footer-->
+<footer class="footer mt-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="footer-logo d-flex align-items-center mb-3">
+                  <img src="img/logo9.png" alt="iMusic" style="width: 40px; height: auto;">
+                  <span class="ms-2 fs-4">iMusic</span>
+              </div>
+              <p class="text-white">Your ultimate music streaming platform. Listen to millions of songs anywhere, anytime.</p>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+              <h5 class="mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#" class="text-decoration-none">Home</a></li>
+                  <li class="mb-2"><a href="#about" class="text-decoration-none">About Us</a></li>
+                  <li class="mb-2"><a href="#features" class="text-decoration-none">Features</a></li>
+                  <li class="mb-2"><a href="#pricing" class="text-decoration-none">Pricing</a></li>
+              </ul>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+              <h5 class="mb-3">Follow Us</h5>
+              <div class="social-icons">
+                  <a href="#" class="me-3 text-decoration-none">
+                      <i class="ph ph-facebook-logo fs-4"></i>
+                  </a>
+                  <a href="#" class="me-3 text-decoration-none">
+                      <i class="ph ph-twitter-logo fs-4"></i>
+                  </a>
+                  <a href="#" class="me-3 text-decoration-none">
+                      <i class="ph ph-instagram-logo fs-4"></i>
+                  </a>
+                  <a href="#" class="me-3 text-decoration-none">
+                      <i class="ph ph-youtube-logo fs-4"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12">
+              <hr>
+              <p class="text-center text-white">© 2024 iMusic. All rights reserved.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+<!--footer end-->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+   <script src="script.js" ></script>
+</body>
+</html>
